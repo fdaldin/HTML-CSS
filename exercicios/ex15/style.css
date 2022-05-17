@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgba(209, 180, 137, 0.897);
+    font-family: sans-serif;
+    font-size: 20px;
+}
+h1 {
+    color: brown;
+    background-color: bisque;
+}
+h2 {
+    color: chocolate;
+}
+p {
+    color: peru;
+    text-align: justify;
+}

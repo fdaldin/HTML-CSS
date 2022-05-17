@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+        /*
+        # = id
+        . = class
+        : = pseudo-classe
+        :: = pseudo-element
+        > = children (dependente)
+
+        */
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        a {
+            color: black;
+            text-decoration: none;
+        }
+
+        .special {
+            background-color: blueviolet;
+        }
+
+        .special::after {
+            content: '☭';
+        }
+
+        a:visited {
+            color: red;
+        }
+
+        a:hover {
+            color: grey;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: rebeccapurple;
+        }
+
+
+        a::after {
+            content: '➫';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/channel/UCnAkBuPyIFWp2RRcuNZHL1w" target="_blank">youtube</a></li>
+
+        <li><a href="https://www.instagram.com/_butterdawg/" target="_blank" class="special">instagram</a></li>
+
+        <li><a href="https://www.cursoemvideo.com" target="_blank">cursoemvideo</a></li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de caixas</title>
+    <style>
+        h1 {
+            background-color: lightblue;
+            height: 300px;
+            width: 300px;
+
+            border-width: 10px;
+            border-style: groove;
+            border-color: bisque;
+
+            /* podemos simplificar com apenas 'border: 10px groove bisque;'
+
+            sempre na ordem de tamanho, estilo e cor
+
+            */
+
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+
+            /* como ja dito acima, podemos simplificar essa expressão em só uma linha, fazendo: 'padding: 10px 10px 10px 10px' ou ainda melhor, caso todos os lados sejam de tamanhos iguais, podemos fazer apenas: 'padding: 10px'
+            
+            caso vc use 'padding: 10px 20px;' será considerado que, 10px é a quantidade de pixels encima e em baixo, e 20px dos lados */
+
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+
+            /* use 'margin: auto;' para centralizar uma box */
+
+            outline-width: 5px;
+            outline-style: dashed;
+            outline-color: aquamarine;
+        }
+
+        a {
+            border-width: 5px;
+            border-style: ridge;
+            border-color: blanchedalmond;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixas box-level</h1>
+    <p>Paragrafos tambem sao exemplos de box level, mas os <a href="#">links sao exemplos de caixas inline-level</a>. Veja como funciona</p>
+</body>
+</html>
